@@ -1,7 +1,28 @@
-.textbox {
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#textbox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.field {
   border: 3px solid #90809c;
   border-radius: 5px;
   padding: 1rem;
-  width: 75%;
   color: #90809c;
+  display: flex;
+  margin: 3px;
+}
+
+.structure {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #f00;
+  flex-flow: nowrap;
+  align-items: stretch;
+  height: 100%;
 }
